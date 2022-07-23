@@ -23,6 +23,7 @@ body {
    color: var(--secondary-text-color);
    font-family: "Roboto", sans-serif;
    font-size: 14px;
+   
 }
 
 .container {
@@ -31,11 +32,12 @@ body {
    margin-right: auto;
    padding-left: 15px;
    padding-right: 15px;
-   outline: solid 2px red;
+   
 }
 /*----------header----------*/
 .header {
     display:flex;
+    border-bottom: 1px;
 }
 .header-logo {
     Font-family: "Raleway", sans-serif;
@@ -81,8 +83,6 @@ body {
     list-style: none;
     display: flex;
     padding-left: 93px;
-    padding-top: 32px;
-    max-width: 294px;
     height: 16px;
     column-gap: 50px;
     
@@ -96,6 +96,7 @@ body {
 }
 
 .navi-link {
+    padding: 32px 0;
     letter-spacing: 0.02px;
     font-weight: 500;
     font-size: 14px;
@@ -103,15 +104,15 @@ body {
     text-decoration: none;
     list-style: none;
     color: var(--title-text-color);
+    display: block;
     
 }
 .nav-cont {
     display: flex;
-    padding-top: 32px;
-    padding-left: 331px;
     text-align: center;
     justify-content: space-between;
     column-gap: 50px;
+    margin-left: auto;
 }
 .list {
     
@@ -167,7 +168,8 @@ body {
     color: var(--option-button-color);
     background-color: var(--header-footer-color);
     max-width: 1600px;
-    height: 600px;
+    padding: 200px 0;
+    
     
     
 
@@ -192,11 +194,11 @@ body {
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
-    max-width: 696px;
-    max-height: 120px;
+    max-width: 696px;  
     margin-left: auto;
     margin-right: auto;
-    padding-top: 200px;
+    margin-bottom: 30px;
+    
 
     
     
@@ -222,7 +224,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    margin-top: 150px;
+    padding: 10px 22px;
     
     
 }
@@ -255,6 +257,9 @@ body {
     height: 101px;
     
 }
+.sec-work {
+    padding-bottom: 94px;
+}
 /*----------Чем мы занимаемся----------*/
 .activity  {
     text-align: center;
@@ -270,7 +275,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 94px;
+    
 
 }
 /*----------Наша команда----------*/
@@ -282,7 +287,7 @@ body {
     font-size: 36px;
     line-height: 1.17;
     color: var(--title-text-color);
-    padding-top: 94px;
+    
 }
 .section-team {
     list-style: none;
@@ -291,35 +296,43 @@ body {
     justify-content: space-between;
 
 }
+.team-li {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    border-bottom: 30px;
+}
 .figure {
     margin: 0;
+    background-color: #ffffff;
+    border-radius: ;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px
+
 }
 .team-name {
-    padding-top: 30px;
     text-align: center;
 }
 .team-p {
     padding-top: 10px;
-    padding-bottom: 124px;
     text-align: center;
 
 }
 /*----------Footer----------*/
 .foot {
     background-color: var(--header-footer-color);
-    
+    padding: 60px 0;
     
     
 }
 .foot-logo {
     display: block;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    
 
 
 }
 .foot-list {
-    margin-top:
+    
 }
 .contact:focus,
 .contact:hover {
@@ -375,12 +388,23 @@ body {
     display: flex;
     column-gap: 8px;
     text-align: center;
-    padding-top: 94px;
-    padding-bottom: 24px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     
+    
+}
+.section {
+    padding: 94px 0;
+    
+}
+.sec-team {
+
+    background-color: #F5F4FA;
+}
+.sec-port {
+    background-color: #e5e5e5;
 }
 .options:focus,
 .options:hover {
@@ -404,7 +428,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     border-radius: 4px;
-    background-color: var(--option-button-color);
+    background-color: #F5F4FA;
+    border: none;
+    padding: 6px 22px;
 }
 .name-pic{
     font-weight: 700;
@@ -412,7 +438,7 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
-    padding-left: 24px;
+    margin-bottom: 4px;
 }
 .section-list {
     list-style: none;
@@ -428,17 +454,25 @@ body {
     text-decoration: none;
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;
-    color: var(--title-text-color);
     
     
-}
+img-display:block
+    /*color: var(--title-text-color);*/
+
+    
+
+}   
+    
+
 .gal-list {
     width: calc(100% / 3 - 30px);
     margin: 15px;
-    display: block;
+    
 
     
+}
+.fig-cap {
+    padding: 30px;
 }
 .item-p {
     font-weight: 400;
@@ -446,10 +480,15 @@ body {
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
-    padding-left: 24px;
+    
+    
 }
 /*------------Отступ до футера-------- */
-.item-m {
-    padding-bottom: 114px;
+
+.list-hp {
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    background-color: #ffffff;
     border-top: none;
 }
+
