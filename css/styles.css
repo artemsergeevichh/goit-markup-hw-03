@@ -40,11 +40,12 @@ body {
 }
 /*----------header----------*/
 .header {
-    display:flex;
-    border-bottom: 1px;
+    display: flex;
+    border-bottom: 1px solid #ececec;
+    
 }
 .header-logo {
-    Font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-style: bold;
     font-size: 26px;
@@ -52,8 +53,9 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--buttons-text-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
+    margin-bottom: 20px;
+    
+    
 }
 .studio {
     color: #000000;
@@ -86,7 +88,7 @@ body {
 .nav-li {
     list-style: none;
     display: flex;
-    padding-left: 93px;
+    margin-left: 93px;
     height: 16px;
     column-gap: 50px;
     
@@ -189,6 +191,8 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     
+    
+    
 }
 /*----------Эффективные решения----------*/
 .main-effect {
@@ -228,7 +232,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    padding: 10px 22px;
+    padding: 10px 32px;
     
     
 }
@@ -251,8 +255,6 @@ body {
 .section-benefits {
     list-style: none;
     display: flex;
-    padding-top: 94px;
-    padding-bottom: 94px;
     justify-content: space-between;
     
 }
@@ -325,19 +327,25 @@ body {
 /*----------Footer----------*/
 .foot {
     background-color: var(--header-footer-color);
-    padding: 60px 0;
-    
+    margin-bottom: 
     
 }
 .foot-logo {
     display: block;
-    
-
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--buttons-text-color);
+    margin-bottom: 20px;
+        
+     
 
 }
-.foot-list {
-    
-}
+
 .contact:focus,
 .contact:hover {
     color: var(--buttons-text-color);
@@ -372,18 +380,7 @@ body {
 .studio-dawn {
     color: var(--option-button-color);
 }
-.foot-map {
-    padding-bottom: 9px;
-}
-.foot-mail {
-    padding-bottom: 9px;
-}
-.foot-tel {
-    
-}
-.foot-list {
-    padding-bottom: 60px;
-}
+
 /*------------- Portfolio------------*/
 .section-opti {
     background-color: ;
@@ -408,7 +405,7 @@ body {
     background-color: #F5F4FA;
 }
 .sec-port {
-    background-color: #e5e5e5;
+    background-color: #FFFFFF;
 }
 .options:focus,
 .options:hover {
@@ -449,7 +446,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
-    margin-bottom: 0;
     
     
 }
