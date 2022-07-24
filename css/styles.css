@@ -44,6 +44,16 @@ body {
     border-bottom: 1px solid #ececec;
     
     
+    
+}
+.head-cont {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    justify-content: space-between; 
+    text-align: center;
+    
+
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -54,6 +64,8 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--buttons-text-color);
+    
+    
     
     
     
@@ -82,16 +94,16 @@ body {
 .header-navi {
     display: flex;
     
+    
 
 }
 .navi-list {
     list-style: none;
     list-style: none;
     display: flex;
-    margin-left: 93px;
-    height: 16px;
     column-gap: 50px;
-    justify-content: space-between;
+    margin-top: 8px;
+    margin-left: 93px;
     
 }
 
@@ -102,7 +114,7 @@ body {
 }
 
 .navi-link {
-    padding: 32px 0;
+    margin: 32px 0;
     letter-spacing: 0.02px;
     font-weight: 500;
     font-size: 14px;
@@ -110,15 +122,14 @@ body {
     text-decoration: none;
     list-style: none;
     color: var(--title-text-color);
-    display: block;
+    
     
 }
 .nav-cont {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
+    display: flex; 
     column-gap: 50px;
     margin-left: auto;
+    margin-top: 8px;
 }
 .list {
     
@@ -285,7 +296,9 @@ body {
 
 }
 /*----------Наша команда----------*/
-
+.section-t {
+    background-color: #F5F4FA;
+}
 
 .team {
     text-align: center;
@@ -343,6 +356,7 @@ body {
     text-decoration: none;
     color: var(--buttons-text-color);
     margin-bottom: 20px;
+    
     
      
 
