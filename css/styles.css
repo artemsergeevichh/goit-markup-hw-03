@@ -38,6 +38,10 @@ body {
    padding-right: 15px;
    
 }
+.section {
+    padding: 94px 0;
+    
+}
 /*----------header----------*/
 .header {
     display: flex;
@@ -117,6 +121,7 @@ body {
 .navi-link {
     display: block;
     padding-top: 32px;
+    padding-bottom: 32px;
     letter-spacing: 0.02px;
     font-weight: 500;
     font-size: 14px;
@@ -276,7 +281,10 @@ body {
     height: 101px;
     
 }
-
+.section-w {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 
 /*----------Чем мы занимаемся----------*/
 .activity  {
@@ -299,6 +307,9 @@ body {
 /*----------Наша команда----------*/
 .section-t {
     background-color: #F5F4FA;
+    margin-top: 53px;
+    
+
 }
 
 .team {
@@ -425,10 +436,7 @@ body {
     
     
 }
-.section {
-    padding: 94px 0;
-    
-}
+
 .sec-team {
 
     background-color: #F5F4FA;
