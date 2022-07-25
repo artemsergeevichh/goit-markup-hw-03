@@ -48,8 +48,6 @@ body {
 }
 .head-cont {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 25px;
     justify-content: space-between; 
     text-align: center;
     
@@ -64,6 +62,10 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--buttons-text-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
+    text-align: center;
+    display: block;
     
     
     
@@ -102,7 +104,6 @@ body {
     list-style: none;
     display: flex;
     column-gap: 50px;
-    margin-top: 8px;
     margin-left: 93px;
     
 }
@@ -114,7 +115,8 @@ body {
 }
 
 .navi-link {
-    margin: 32px 0;
+    display: block;
+    padding-top: 32px;
     letter-spacing: 0.02px;
     font-weight: 500;
     font-size: 14px;
@@ -129,7 +131,7 @@ body {
     display: flex; 
     column-gap: 50px;
     margin-left: auto;
-    margin-top: 8px;
+   
 }
 .list {
     
@@ -184,8 +186,8 @@ body {
 .main-sect {
     color: var(--option-button-color);
     background-color: var(--header-footer-color);
-    max-width: 1600px;
     padding: 200px 0;
+    
     
     
     
@@ -247,7 +249,7 @@ body {
     
     
 }
-
+    
 
 /*----------Наши преимущества----------*/
 .invisible { 
@@ -274,9 +276,8 @@ body {
     height: 101px;
     
 }
-.sec-work {
-    padding-bottom: 94px;
-}
+
+
 /*----------Чем мы занимаемся----------*/
 .activity  {
     text-align: center;
@@ -291,7 +292,7 @@ body {
 .section-activity {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
     
 
 }
@@ -312,7 +313,7 @@ body {
     list-style: none;
     display: flex;
     padding-top: 50px;
-    justify-content: space-between;
+    gap: 30px;
 
 }
 .team-li {
